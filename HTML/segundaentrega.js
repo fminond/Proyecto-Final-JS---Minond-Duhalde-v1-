@@ -102,7 +102,20 @@ function eliminarProducto(){
     carrito.forEach(producto=>{
         document.querySelector(`#btn-eliminar${producto.id}`).addEventListener("click",()=>{
             let indice = carrito.findIndex(element=>element.id===producto.id);
-            carrito.splice(indice,1);
+            Swal.fire({
+                title: "¿Estas seguro que deseas eliminar este producto?",
+                showDenyButton: true,
+                showCancelButton: false,
+                confirmButtonText: 'Si',
+        
+              }).then((result) => {
+                if (result.isConfirmed) {
+                  Swal.fire("Listo, lo eliminamos", "", "success" )
+                  carrito.splice(indice,1);
+                } else if (result.isDenied) {
+                  Swal.fire('Podes seguir comprando', '', 'info')
+                }
+              })
             renderizarCarrito()
         })
     })

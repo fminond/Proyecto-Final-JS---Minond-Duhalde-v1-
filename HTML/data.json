@@ -2,41 +2,50 @@
     {
        "nombre":"Raqueta Babolat Pure Aero",
        "precio":94999,
-       "id":1
+       "id":1,
+       "image": "/IMG/raqueta babolat pure aero.jpg"
     },
     {
-       "nombre":"Raqueta babolat pure drive tour",
+       "nombre":"Raqueta Babolat Pure Drive Tour",
        "precio":94900,
-       "id":2
+       "id":2,
+       "image": "/IMG/raqueta babolat pure drive tour.png"
+       
     },
     {
-       "nombre":"Raqueta head boom pro",
+       "nombre":"Raqueta Head Boom Pro",
        "precio":71900,
-       "id":3
+       "id":3,
+       "image": "/IMG/raqueta head boom pro.jpg"
     },
     {
        "nombre":"Raqueta Wilson Blade",
        "precio":86000,
-       "id":4
+       "id":4,
+       "image": "/IMG/raqueta wilson blade.jpeg"
     },
     {
        "nombre":"Raqueta Head Speed MP 5",
        "precio":77000,
-       "id":5
+       "id":5,
+       "image": "/IMG/raqueta head speed mp.jpg"
     },
     {
        "nombre":"Raqueta Pro Staff RF",
        "precio":70000,
-       "id":6
+       "id":6,
+       "image": "/IMG/raqueta pro staff rf 97.jpeg"
     },
     {
        "nombre":"Raqueta Wilson Clash 98 V2",
        "precio":82199,
-       "id":7
+       "id":7,
+       "image": "/IMG/raqueta wilson clash 98 V2.jpeg"
     },
     {
        "nombre":"Raqueta Yonex Ezone 98",
        "precio":77000,
-       "id":8
+       "id":8,
+       "image": "/IMG/raqueta tenis yonex ezone 98.jpg"
     }
  ]
